@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  web:
+    image: yatharthchauhan2024/yc-app-jenkins:latest
+    ports:
+      - "4000:3000"
